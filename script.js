@@ -37,6 +37,19 @@
     targets.forEach(function (el) { el.classList.add("reveal"); io.observe(el); });
   }
 
+  // ---------- Ventanas de servicios ----------
+  document.querySelectorAll("[data-open]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var dlg = document.getElementById(btn.dataset.open);
+      if (dlg && dlg.showModal) dlg.showModal();
+    });
+  });
+  document.querySelectorAll("dialog.svc").forEach(function (dlg) {
+    dlg.addEventListener("click", function (ev) {
+      if (ev.target === dlg || ev.target.closest("[data-close]")) dlg.close();
+    });
+  });
+
   // ---------- Formulario (temporal: abre el correo del visitante) ----------
   // TODO: conectar a un servicio de formularios (Formspree, Basin, etc.) antes de publicar.
   var form = document.getElementById("inquiry");
