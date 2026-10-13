@@ -50,5 +50,5 @@ Tipografías: **Cormorant Garamond** para títulos (serif clásica, editorial) y
 - [ ] Revisar la biografía del fundador (sección IV)
 - [ ] Dirección de la nueva oficina y correo reales (actualmente `office@qlegal.com.pa` es un ejemplo)
 - [ ] Conectar el formulario a un servicio (Formspree, Basin, etc.); hoy abre el correo del visitante
-- [ ] Foto del fundador: guardar como `assets/founder.jpg` (vertical 4:5, mín. 1000×1250 px); si no existe, se muestra el monograma
+- [x] Foto del fundador (`assets/founder.jpg`)
 - [ ] Registrar el dominio y publicar (Netlify, Vercel o GitHub Pages)
