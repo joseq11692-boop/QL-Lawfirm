@@ -1,6 +1,6 @@
 # QL — Firma boutique de asesoría legal
 
-Sitio web bilingüe (ES/EN) de una firma boutique de alto nivel, al estilo de Nueva York. Es un sitio estático: HTML, CSS y JS, sin dependencias.
+Sitio web bilingüe (ES/EN) de una firma boutique de alto nivel con sede en Ciudad de Panamá y estética de boutique neoyorquina. Fundador: José Alberto Quiel. Es un sitio estático: HTML, CSS y JS, sin dependencias.
 
 ```
 index.html          Contenido (cada texto en <span data-l="es"> y <span data-l="en">)
@@ -31,13 +31,22 @@ Tipografías: **Cormorant Garamond** para títulos (serif clásica, editorial) y
 - **Quill & Ledger**: pluma (derecho) y libro mayor (negocios y patrimonio).
 - **Qualis Legal**: del latín *qualis*, "de calidad".
 - **QL Advisory**: pone el foco en la asesoría y no en el litigio.
+- **Quiel Legal / QL Quiel & Asociados**: incluye el apellido del fundador; "QL" viene de Qui**el**.
 
-> ⚠️ En Nueva York, la regla 7.5(b) de las *Rules of Professional Conduct* prohíbe ejercer con un **nombre comercial** (trade name). El nombre legal de la firma normalmente debe incluir el apellido del abogado, por ejemplo "[Apellido] Law PLLC". "QL" puede usarse como monograma y marca visual. Confirma el nombre final con las reglas de la jurisdicción donde vas a ejercer.
+> ⚠️ Antes de registrar el nombre, confirma con el Código de Ética del Colegio Nacional de Abogados de Panamá qué permite sobre nombres de firma y publicidad. El fundador está admitido en Panamá: el sitio no debe presentar la firma como despacho de EE.UU.
+
+## Áreas de práctica (sin litigio)
+
+1. Corporativo y estructuración internacional (sociedades, fundaciones de interés privado, holdings)
+2. Derecho marítimo (registro de buques, hipotecas navales, compraventa de buques)
+3. Inversión inmobiliaria y Propiedad Horizontal
+4. Residencia para inversionistas (inversionista calificado, Países Amigos)
 
 ## Pendientes antes de publicar
 
-- [ ] Nombre definitivo de la firma, nombre del fundador, biografía y jurisdicciones de admisión
-- [ ] Dirección y correo reales (actualmente `office@qlcounsel.com` es un ejemplo)
+- [ ] Nombre definitivo de la firma
+- [ ] Revisar la biografía del fundador (sección IV)
+- [ ] Dirección de la nueva oficina y correo reales (actualmente `office@qlcounsel.com` es un ejemplo)
 - [ ] Conectar el formulario a un servicio (Formspree, Basin, etc.); hoy abre el correo del visitante
 - [ ] Retrato profesional del fundador para reemplazar el bloque con el monograma
 - [ ] Registrar el dominio y publicar (Netlify, Vercel o GitHub Pages)
