@@ -228,3 +228,7 @@ address a { color: var(--brass-lt); text-decoration: none; }
   .portrait { max-width: 360px; }
   .hero-mark { font-size: 70vw; bottom: -14vw; }
 }
+
+/* ---------- Founder credentials ---------- */
+.credentials { list-style: none; padding: 0; margin: 1.8rem 0; border-top: 1px solid rgba(14, 42, 33, .15); }
+.credentials li { padding: .8rem 0; border-bottom: 1px solid rgba(14, 42, 33, .15); font-family: var(--serif); font-size: 1.12rem; line-height: 1.4; color: var(--green-900); }
