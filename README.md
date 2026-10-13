@@ -48,7 +48,8 @@ Tipografías: **Cormorant Garamond** para títulos (serif clásica, editorial) y
 - [x] Nombre definitivo de la firma: **Q Legal**
 - [ ] Registrar la marca en DIGERPI (clase 45) y el dominio (`qlegal.com.pa`, `qlegalpanama.com` o similar)
 - [ ] Revisar la biografía del fundador (sección IV)
-- [ ] Dirección de la nueva oficina y correo reales (actualmente `office@qlegal.com.pa` es un ejemplo)
+- [x] Dirección: Costa del Este, Ciudad de Panamá
+- [ ] Correo real (actualmente `office@qlegal.com.pa` es un ejemplo)
 - [ ] Conectar el formulario a un servicio (Formspree, Basin, etc.); hoy abre el correo del visitante
 - [x] Foto del fundador (`assets/founder.jpg`)
 - [ ] Registrar el dominio y publicar (Netlify, Vercel o GitHub Pages)
