@@ -177,7 +177,8 @@ em { font-style: italic; }
   background: linear-gradient(160deg, var(--green-800), var(--green-950));
   display: grid; place-items: center; position: relative;
 }
-.portrait::after { content: ""; position: absolute; inset: 18px; border: 1px solid rgba(184, 151, 90, .45); }
+.portrait::after { content: ""; position: absolute; z-index: 1; inset: 18px; border: 1px solid rgba(184, 151, 90, .45); }
+.portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 20%; filter: grayscale(.15) contrast(1.03); }
 .portrait span { font-family: var(--serif); font-style: italic; font-size: 7rem; color: var(--brass-lt); opacity: .8; }
 .role { font-size: .74rem; letter-spacing: .25em; text-transform: uppercase; color: var(--brass) !important; }
 

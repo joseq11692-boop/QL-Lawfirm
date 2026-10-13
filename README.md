@@ -48,5 +48,5 @@ Tipografías: **Cormorant Garamond** para títulos (serif clásica, editorial) y
 - [ ] Revisar la biografía del fundador (sección IV)
 - [ ] Dirección de la nueva oficina y correo reales (actualmente `office@qlcounsel.com` es un ejemplo)
 - [ ] Conectar el formulario a un servicio (Formspree, Basin, etc.); hoy abre el correo del visitante
-- [ ] Retrato profesional del fundador para reemplazar el bloque con el monograma
+- [ ] Foto del fundador: guardar como `assets/founder.jpg` (vertical 4:5, mín. 1000×1250 px); si no existe, se muestra el monograma
 - [ ] Registrar el dominio y publicar (Netlify, Vercel o GitHub Pages)
