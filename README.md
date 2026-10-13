@@ -1,4 +1,4 @@
-# QL — Firma boutique de asesoría legal
+# Q Legal — Firma boutique de asesoría legal
 
 Sitio web bilingüe (ES/EN) de una firma boutique de alto nivel con sede en Ciudad de Panamá y estética de boutique neoyorquina. Fundador: José Alberto Quiel. Es un sitio estático: HTML, CSS y JS, sin dependencias.
 
@@ -24,9 +24,10 @@ Para verlo, abre `index.html` en el navegador.
 
 Tipografías: **Cormorant Garamond** para títulos (serif clásica, editorial) y **Jost** para el texto (sans geométrica y ligera).
 
-## Nombres propuestos
+## Nombre
 
-- **QL Counsel / QL Consejeros**: nombre de trabajo usado en el sitio.
+- **Q Legal**: ✅ nombre elegido. Q de Quiel; Q + Legal forma el monograma QL.
+- QL Counsel / QL Consejeros (nombre de trabajo anterior)
 - **Quorum Lex**: viene del latín y funciona igual en español e inglés.
 - **Quill & Ledger**: pluma (derecho) y libro mayor (negocios y patrimonio).
 - **Qualis Legal**: del latín *qualis*, "de calidad".
@@ -44,9 +45,10 @@ Tipografías: **Cormorant Garamond** para títulos (serif clásica, editorial) y
 
 ## Pendientes antes de publicar
 
-- [ ] Nombre definitivo de la firma
+- [x] Nombre definitivo de la firma: **Q Legal**
+- [ ] Registrar la marca en DIGERPI (clase 45) y el dominio (`qlegal.com.pa`, `qlegalpanama.com` o similar)
 - [ ] Revisar la biografía del fundador (sección IV)
-- [ ] Dirección de la nueva oficina y correo reales (actualmente `office@qlcounsel.com` es un ejemplo)
+- [ ] Dirección de la nueva oficina y correo reales (actualmente `office@qlegal.com.pa` es un ejemplo)
 - [ ] Conectar el formulario a un servicio (Formspree, Basin, etc.); hoy abre el correo del visitante
 - [ ] Foto del fundador: guardar como `assets/founder.jpg` (vertical 4:5, mín. 1000×1250 px); si no existe, se muestra el monograma
 - [ ] Registrar el dominio y publicar (Netlify, Vercel o GitHub Pages)
