@@ -33,7 +33,7 @@ Tipografías: **Cormorant Garamond** para títulos (serif clásica, editorial) y
 - **QL Advisory**: pone el foco en la asesoría y no en el litigio.
 - **Quiel Legal / QL Quiel & Asociados**: incluye el apellido del fundador; "QL" viene de Qui**el**.
 
-> ⚠️ Antes de registrar el nombre, confirma con el Código de Ética del Colegio Nacional de Abogados de Panamá qué permite sobre nombres de firma y publicidad. El fundador está admitido en Panamá: el sitio no debe presentar la firma como despacho de EE.UU.
+> ✅ El fundador confirmó con el Colegio Nacional de Abogados de Panamá el nombre y la publicidad de la firma. Está admitido en Panamá, así que el sitio no debe presentar la firma como despacho de EE.UU.
 
 ## Áreas de práctica (sin litigio)
 
