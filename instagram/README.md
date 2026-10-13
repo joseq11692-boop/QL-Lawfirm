@@ -214,7 +214,7 @@ Consultas por invitación o referencia.
 
 Q Legal acepta un número limitado de mandatos cada año. Si desea una conversación privada, escríbanos por mensaje directo o a través del enlace en nuestra biografía.
 
-Costa del Este, Ciudad de Panamá.
+PH Dream Plaza, Costa del Este, Ciudad de Panamá.
 
 —
 
