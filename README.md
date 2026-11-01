@@ -1,5 +1,7 @@
 # Q Legal — Firma boutique de asesoría legal
 
+> ⚠️ **Este repositorio es PÚBLICO.** Contiene solo la web y el material de marketing. Nunca subas aquí información de clientes ni expedientes: ese trabajo va en el repositorio privado `Q-Legal-Despacho`.
+
 Sitio web bilingüe (ES/EN) de una firma boutique de alto nivel con sede en Ciudad de Panamá y estética de boutique neoyorquina. Fundador: Jose Alberto Quiel. Es un sitio estático: HTML, CSS y JS, sin dependencias.
 
 ```
