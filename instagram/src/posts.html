@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>Q Legal — Instagram kit</title>
+<title>Kiu Legal — Instagram kit</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -31,10 +31,14 @@
   .top { color: var(--brass); font-weight: 500; }
   .foot { margin-top: auto; font-size: 20px; opacity: .7; }
   .light .foot, .sand .foot { color: var(--green-900); }
-  .brand { display: flex; align-items: center; gap: 18px; font-family: var(--serif); font-size: 34px; letter-spacing: .04em; text-transform: none; color: inherit; font-weight: 400; }
+  /* Logotipo Kiu Legal: el punto de la i es un rombo dorado */
+  .brand { display: inline-flex; align-items: center; gap: .42em; line-height: 1; font-size: 44px; text-transform: none; letter-spacing: 0; color: var(--green-900); }
   .dark .brand { color: var(--ivory); }
-  .brand i { color: var(--brass); }
-  .mono { width: 52px; height: 52px; display: grid; place-items: center; border: 1.5px solid var(--brass); font-family: var(--serif); font-style: italic; font-size: 24px; color: var(--brass-lt); background: var(--green-900); letter-spacing: 0; }
+  .brand .kiu { font-family: var(--serif); font-weight: 600; letter-spacing: .01em; }
+  .brand .i { position: relative; display: inline-block; }
+  .brand .i::after { content: ""; position: absolute; left: 50%; top: .13em; width: .12em; height: .12em; background: var(--brass); transform: translateX(-50%) rotate(45deg); }
+  .brand .sep { width: 1.5px; height: .62em; background: var(--brass); }
+  .brand .legal { font-family: var(--sans); font-weight: 500; font-size: .26em; letter-spacing: .42em; }
 
   .body { margin-top: auto; }
   .eyebrow { font-size: 22px; letter-spacing: .32em; text-transform: uppercase; color: var(--brass); font-weight: 500; margin-bottom: 40px; }
@@ -74,8 +78,8 @@
 
   /* ---------- Avatar y portadas ---------- */
   .avatar { width: 1080px; height: 1080px; display: grid; place-items: center; background: var(--green-900); margin-bottom: 40px; }
-  .avatar .ring { width: 660px; height: 660px; border: 3px solid var(--brass); display: grid; place-items: center; }
-  .avatar span { font-family: var(--serif); font-style: italic; font-size: 330px; color: var(--brass-lt); letter-spacing: .02em; line-height: 1; padding-bottom: 30px; }
+  .avatar span { position: relative; font-family: var(--serif); font-weight: 600; font-size: 620px; color: var(--ivory); line-height: 1; padding-bottom: 40px; margin-left: -40px; }
+  .avatar span::after { content: ""; position: absolute; right: -.07em; top: .2em; width: .13em; height: .13em; background: var(--brass); transform: rotate(45deg); }
   .cover { width: 1080px; height: 1080px; display: grid; place-items: center; background: var(--green-900); margin-bottom: 40px; }
   .cover div { width: 560px; height: 560px; border-radius: 50%; border: 3px solid var(--brass); display: grid; place-items: center; text-align: center; }
   .cover span { font-family: var(--serif); font-style: italic; font-size: 120px; color: var(--brass-lt); line-height: 1; }
@@ -86,13 +90,13 @@
 
 <!-- 01 · Lanzamiento -->
 <section class="post dark" id="post-01">
-  <div class="watermark">Q</div>
-  <div class="top"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span>2026</span></div>
+  <div class="watermark">K</div>
+  <div class="top"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span>2026</span></div>
   <div class="body">
     <p class="eyebrow">Ciudad de Panamá</p>
     <h1>Pocos clientes.<br><em>Atención absoluta.</em></h1>
     <div class="rule"></div>
-    <p class="lede">Nace Q Legal: asesoría legal boutique para empresarios, inversionistas y navieras internacionales.</p>
+    <p class="lede">Nace Kiu Legal: asesoría legal boutique para empresarios, inversionistas y navieras internacionales.</p>
   </div>
   <div class="foot"><span>Boutique Legal Advisory</span><span>01</span></div>
 </section>
@@ -102,7 +106,7 @@
   <img src="../../assets/founder.jpg" alt="">
   <div class="shade"></div>
   <div class="inner">
-    <div class="top"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span></span></div>
+    <div class="top"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span></span></div>
     <div class="body">
       <p class="eyebrow">Socio fundador</p>
       <h2>Jose Alberto<br><em>Quiel</em></h2>
@@ -114,7 +118,7 @@
 
 <!-- 03 · Filosofía -->
 <section class="post light center" id="post-03">
-  <div class="top" style="width:100%"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span>Filosofía</span></div>
+  <div class="top" style="width:100%"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span>Filosofía</span></div>
   <div class="body" style="margin-bottom:auto">
     <div class="rule" style="margin:0 auto 64px"></div>
     <h2 style="font-size:84px;font-style:italic">“La mejor estrategia legal es la que nunca necesita defenderse en un tribunal.”</h2>
@@ -125,7 +129,7 @@
 
 <!-- 04 · Corporativo -->
 <section class="post dark" id="post-04">
-  <div class="top"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span>Corporativo</span></div>
+  <div class="top"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span>Corporativo</span></div>
   <div class="body">
     <p class="eyebrow">Estructuración internacional</p>
     <h2>¿Sociedad anónima o <em>fundación</em>?</h2>
@@ -148,7 +152,7 @@
 
 <!-- 05 · Marítimo -->
 <section class="post sand" id="post-05">
-  <div class="top"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span>Marítimo</span></div>
+  <div class="top"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span>Marítimo</span></div>
   <div class="body">
     <p class="eyebrow">Bandera panameña</p>
     <h2>Uno de los registros de buques <em>más grandes del mundo</em> está en Panamá.</h2>
@@ -163,7 +167,7 @@
 
 <!-- 06 · Inmobiliario -->
 <section class="post dark" id="post-06">
-  <div class="top"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span>Inmobiliario</span></div>
+  <div class="top"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span>Inmobiliario</span></div>
   <div class="body">
     <p class="eyebrow">Antes de comprar en Panamá</p>
     <h2>5 cosas que <em>revisar</em></h2>
@@ -180,7 +184,7 @@
 
 <!-- 07 · Residencia -->
 <section class="post light" id="post-07">
-  <div class="top"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span>Residencia</span></div>
+  <div class="top"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span>Residencia</span></div>
   <div class="body">
     <p class="eyebrow">Vivir e invertir en Panamá</p>
     <h2>Tres caminos hacia la <em>residencia</em></h2>
@@ -196,7 +200,7 @@
 
 <!-- 08 · Cómo trabajamos -->
 <section class="post dark" id="post-08">
-  <div class="top"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span>Enfoque</span></div>
+  <div class="top"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span>Enfoque</span></div>
   <div class="body">
     <p class="eyebrow">Cómo trabajamos</p>
     <h2>Sin facturación <em>por hora.</em></h2>
@@ -212,7 +216,7 @@
 
 <!-- 09 · Bilingüe -->
 <section class="post sand center" id="post-09">
-  <div class="top" style="width:100%"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span>ES · EN</span></div>
+  <div class="top" style="width:100%"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span>ES · EN</span></div>
   <div class="body" style="margin-bottom:auto">
     <h2 style="font-size:104px">Hablamos su idioma.</h2>
     <div class="rule" style="margin:56px auto"></div>
@@ -224,8 +228,8 @@
 
 <!-- 10 · Contacto -->
 <section class="post dark" id="post-10">
-  <div class="watermark">L</div>
-  <div class="top"><span class="brand"><span class="mono">QL</span>Q <i>Legal</i></span><span>Contacto</span></div>
+  <div class="watermark">K</div>
+  <div class="top"><span class="brand"><span class="kiu">K<span class="i">ı</span>u</span><span class="sep"></span><span class="legal">LEGAL</span></span><span>Contacto</span></div>
   <div class="body">
     <p class="eyebrow">Mandatos limitados cada año</p>
     <h1 style="font-size:116px">Consultas por invitación o <em>referencia.</em></h1>
@@ -236,7 +240,7 @@
 </section>
 
 <!-- Foto de perfil -->
-<section class="avatar" id="avatar"><div class="ring"><span>QL</span></div></section>
+<section class="avatar" id="avatar"><span>K</span></section>
 
 <!-- Portadas de historias destacadas -->
 <section class="cover" id="cover-firma"><div><span>I<small>La Firma</small></span></div></section>

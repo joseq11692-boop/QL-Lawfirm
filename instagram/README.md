@@ -1,10 +1,10 @@
-# Q Legal — Kit de Instagram
+# Kiu Legal — Kit de Instagram
 
-Todo lo necesario para lanzar la cuenta de Instagram de Q Legal con la misma identidad que la web.
+Todo lo necesario para lanzar la cuenta de Instagram de Kiu Legal con la misma identidad que la web.
 
 ```
 posts/          10 posts listos para subir (1080×1350, formato vertical 4:5)
-perfil/         Foto de perfil (monograma QL)
+perfil/         Foto de perfil (ícono K con rombo dorado)
 destacadas/     Portadas para historias destacadas: La Firma, Práctica, Fundador, Contacto
 src/            Plantilla editable (posts.html) y script para regenerar las imágenes
 ```
@@ -15,9 +15,9 @@ Para cambiar un texto, edita `src/posts.html` y ejecuta `node instagram/src/rend
 
 ## Perfil
 
-**Usuario sugerido:** `@qlegal.pa` (alternativas: `@qlegalpanama`, `@q.legal`). Verifica que esté disponible.
+**Usuario sugerido:** `@kiulegal` (alternativas: `@kiu.legal`, `@kiulegalpanama`). Verifica que esté disponible.
 
-**Nombre:** Q Legal | Boutique Legal Advisory
+**Nombre:** Kiu Legal | Boutique Legal Advisory
 
 **Biografía (150 caracteres máx.):**
 
@@ -52,32 +52,32 @@ Cada texto va en español y luego en inglés. Copia y pega tal cual.
 ```
 Pocos clientes. Atención absoluta.
 
-Hoy nace Q Legal, una firma boutique de asesoría legal en Ciudad de Panamá para empresarios, inversionistas y navieras internacionales.
+Hoy nace Kiu Legal, una firma boutique de asesoría legal en Ciudad de Panamá para empresarios, inversionistas y navieras internacionales.
 
 Aceptamos un número limitado de mandatos cada año. Así conocemos a fondo cada negocio y cada patrimonio que representamos.
 
 —
 
 Few clients. Undivided attention.
-Q Legal is a boutique legal advisory firm in Panama City for international entrepreneurs, investors and shipowners.
+Kiu Legal is a boutique legal advisory firm in Panama City for international entrepreneurs, investors and shipowners.
 
-#QLegal #AbogadosPanamá #PanamaLawyer #BoutiqueLawFirm #CiudadDePanamá
+#KiuLegal #AbogadosPanamá #PanamaLawyer #BoutiqueLawFirm #CiudadDePanamá
 ```
 
 ### 02 · Fundador
 
 ```
-Jose Alberto Quiel, socio fundador de Q Legal.
+Jose Alberto Quiel, socio fundador de Kiu Legal.
 
 Abogado panameño con práctica en derecho corporativo, marítimo, inmobiliario y migratorio. Máster en Derecho Marítimo, Negocio Marítimo y Gestión Portuaria por la Universitat Politècnica de Catalunya, y posgrado en Práctica Jurídica por el ICAB de Barcelona.
 
-En Q Legal, cada cliente trabaja directamente con él.
+En Kiu Legal, cada cliente trabaja directamente con él.
 
 —
 
 Jose Alberto Quiel, Founding Attorney. Every client works directly with him.
 
-#QLegal #AbogadoPanameño #DerechoMarítimo #DerechoCorporativo #PanamaLawyer
+#KiuLegal #AbogadoPanameño #DerechoMarítimo #DerechoCorporativo #PanamaLawyer
 ```
 
 ### 03 · Filosofía
@@ -85,14 +85,14 @@ Jose Alberto Quiel, Founding Attorney. Every client works directly with him.
 ```
 "La mejor estrategia legal es la que nunca necesita defenderse en un tribunal."
 
-En Q Legal no litigamos. Nuestro trabajo es estructurar, prevenir y negociar para que los conflictos nunca lleguen a un tribunal.
+En Kiu Legal no litigamos. Nuestro trabajo es estructurar, prevenir y negociar para que los conflictos nunca lleguen a un tribunal.
 
 —
 
 "The finest legal strategy is the one that never has to be defended in court."
 We don't litigate. We structure, prevent and negotiate.
 
-#QLegal #AsesoríaLegal #LegalAdvisory #Panamá
+#KiuLegal #AsesoríaLegal #LegalAdvisory #Panamá
 ```
 
 ### 04 · Corporativo
@@ -111,7 +111,7 @@ La estructura correcta depende de sus objetivos. Escríbanos para una conversaci
 
 Corporation or private interest foundation? One runs a business; the other protects and passes on wealth.
 
-#QLegal #SociedadAnónima #FundaciónDeInterésPrivado #EstructuraciónCorporativa #PanamaCorporation
+#KiuLegal #SociedadAnónima #FundaciónDeInterésPrivado #EstructuraciónCorporativa #PanamaCorporation
 Información general; no constituye asesoría legal.
 ```
 
@@ -131,7 +131,7 @@ Una práctica respaldada por formación especializada en Derecho Marítimo y Ges
 
 Panama hosts one of the world's largest ship registries. We advise shipowners on registration, ship mortgages and vessel sale and purchase.
 
-#QLegal #DerechoMarítimo #MaritimeLaw #PanamaFlag #Shipping #RegistroDeBuques
+#KiuLegal #DerechoMarítimo #MaritimeLaw #PanamaFlag #Shipping #RegistroDeBuques
 ```
 
 ### 06 · Inmobiliario
@@ -151,7 +151,7 @@ Guarde este post para su próxima inversión.
 
 Buying property in Panama? Check title, liens, HOA dues, condominium rules and taxes before you sign.
 
-#QLegal #BienesRaícesPanamá #PropiedadHorizontal #RealEstatePanama #InversiónInmobiliaria
+#KiuLegal #BienesRaícesPanamá #PropiedadHorizontal #RealEstatePanama #InversiónInmobiliaria
 Información general; no constituye asesoría legal.
 ```
 
@@ -170,7 +170,7 @@ Los requisitos y montos cambian. Le ayudamos a elegir la vía adecuada y a coord
 
 Three paths to Panama residency: Qualified Investor, Friendly Nations and Retiree visas.
 
-#QLegal #ResidenciaPanamá #PanamaResidency #InvestorVisa #FriendlyNationsVisa #VivirEnPanamá
+#KiuLegal #ResidenciaPanamá #PanamaResidency #InvestorVisa #FriendlyNationsVisa #VivirEnPanamá
 Información general; no constituye asesoría legal.
 ```
 
@@ -190,7 +190,7 @@ Sabe cuánto va a invertir desde el primer día.
 
 No hourly billing. Fixed fees, in writing, and direct work with the founding attorney.
 
-#QLegal #HonorariosFijos #AsesoríaLegal #BoutiqueLawFirm
+#KiuLegal #HonorariosFijos #AsesoríaLegal #BoutiqueLawFirm
 ```
 
 ### 09 · Bilingüe
@@ -204,7 +204,7 @@ Asesoramos en español e inglés a clientes que invierten y hacen negocios en Pa
 
 Legal advice in Spanish and English for clients investing in Panama from anywhere in the world.
 
-#QLegal #BilingualLawyer #AbogadoBilingüe #InvestInPanama #PanamaLawyer
+#KiuLegal #BilingualLawyer #AbogadoBilingüe #InvestInPanama #PanamaLawyer
 ```
 
 ### 10 · Contacto
@@ -212,7 +212,7 @@ Legal advice in Spanish and English for clients investing in Panama from anywher
 ```
 Consultas por invitación o referencia.
 
-Q Legal acepta un número limitado de mandatos cada año. Si desea una conversación privada, escríbanos por mensaje directo o a través del enlace en nuestra biografía.
+Kiu Legal acepta un número limitado de mandatos cada año. Si desea una conversación privada, escríbanos por mensaje directo o a través del enlace en nuestra biografía.
 
 PH Dream Plaza, Costa del Este, Ciudad de Panamá.
 
@@ -220,7 +220,7 @@ PH Dream Plaza, Costa del Este, Ciudad de Panamá.
 
 Inquiries by introduction or referral. Send us a DM or use the link in bio.
 
-#QLegal #AbogadosPanamá #CostaDelEste #PanamaLawyer #BoutiqueLawFirm
+#KiuLegal #AbogadosPanamá #CostaDelEste #PanamaLawyer #BoutiqueLawFirm
 ```
 
 ---
