@@ -59,7 +59,7 @@
     var body = "Nombre / Name: " + d.get("name") + "\n" +
                "Email: " + d.get("email") + "\n" +
                "Área / Area: " + d.get("area") + "\n\n" + d.get("message");
-    window.location.href = "mailto:office@qlegal.com.pa?subject=" +
+    window.location.href = "mailto:office@kiu.legal?subject=" +
       encodeURIComponent("Consulta / Inquiry — " + d.get("name")) +
       "&body=" + encodeURIComponent(body);
   });

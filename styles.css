@@ -96,8 +96,14 @@ em { font-style: italic; }
   box-shadow: 0 1px 0 rgba(184, 151, 90, .25);
 }
 .brand { display: flex; align-items: center; gap: .8rem; text-decoration: none; }
-.brand-name { font-family: var(--serif); font-size: 1.45rem; letter-spacing: .06em; }
-.brand-name em { color: var(--brass-lt); }
+/* Logotipo Kiu Legal: el punto de la i es un rombo dorado */
+.kiu-logo { display: inline-flex; align-items: center; gap: .42em; line-height: 1; font-size: 30px; color: var(--ivory); }
+.kiu-logo .kiu { font-family: var(--serif); font-weight: 600; letter-spacing: .01em; }
+.kiu-logo .i { position: relative; display: inline-block; }
+.kiu-logo .i::after { content: ""; position: absolute; left: 50%; top: .13em; width: .12em; height: .12em; background: var(--brass); transform: translateX(-50%) rotate(45deg); }
+.kiu-logo .sep { width: 1px; height: .62em; background: var(--brass); }
+.kiu-logo .legal { font-family: var(--sans); font-weight: 500; font-size: .26em; letter-spacing: .42em; }
+.site-footer .kiu-logo { font-size: 26px; }
 .nav { margin-left: auto; display: flex; gap: 2.2rem; align-items: center; }
 .nav a {
   text-decoration: none; font-size: .74rem; letter-spacing: .2em; text-transform: uppercase;
